@@ -1,9 +1,36 @@
 .container-fluid {
   max-width: 1280px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .aspectRatioBox {
   padding-top: calc(2 / 3 * 100%);
   background-size: cover;
   background-position: center;
+}
+
+.about {
+  background-color: black;
+  color: white;
+}
+
+@media all and (max-width: 992px) {
+  .about {
+    background-color: darkred;
+  }
+}
+
+.contact {
+  background-color: black;
+  color: white;
+}
+
+.contact a {
+  color: white;
+}
+
+.altcademy {
+  padding-top: 20px;
+  font-size: 12px;
 }
