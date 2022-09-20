@@ -6,15 +6,18 @@
     <title>Jamie Dunley</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/df05dd7bcc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
     <header>
       <!-- Bootstrap 5 Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">My Portfolio</a>
+          <a class="navbar-brand text-danger" href="#">My Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,26 +32,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Projects</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Me</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-
-      <!-- Old menu
-      <img class="logo" src="./images/JD-Coke-removebg-preview.png">
-      <nav>
-        <ul class="nav-links">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-      <button class="cta">Contact Me</button>-->
     </header>
 
     <!-- Hero section -->
-    <div class="container-fluid">
+    <div class="container-fluid mt-3 mb-5">
       <div class="row align-items-center">
         <div class="col-12 col-md-6 col-lg-8 order-md-2">
           <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/laptop-coding.jpeg')"></div>
@@ -61,11 +55,11 @@
     </div>
 
     <!-- About me -->
-    <div class="container-fluid">
-      <div class="row align-items-center">
+    <div class="container-fluid my-5">
+      <div class="about row align-items-center py-3">
         <h2>About Me</h2>
         <div class="col-12 col-md-6 col-lg-4">
-          <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/jd.jpeg')"></div>
+          <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/coffe-blog.jpeg')"></div>
         </div>
         <div class="col-12 col-md-6 col-lg-8">
           <p>Nulla hendrerit felis ut tristique efficitur. In eget risus luctus, blandit magna at, ullamcorper leo. Pellentesque nec nunc sed est viverra volutpat. Aliquam at turpis sed felis euismod placerat euismod nec massa. Maecenas congue dui eget turpis pellentesque ornare. Integer arcu dolor, volutpat eget leo non, vestibulum lacinia nisl. Morbi ut libero libero. Nam sit amet gravida leo. Suspendisse potenti. Sed lacinia metus non eros dictum, et scelerisque ligula semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut enim nisi, consequat ut imperdiet a, consectetur id turpis. Fusce at blandit libero. Sed volutpat nisi id bibendum consectetur. Curabitur aliquet mollis libero in suscipit.</p>
@@ -74,7 +68,7 @@
     </div>
 
     <!-- Project section -->
-    <div class="container-fluid">
+    <div class="container-fluid my-5">
       <div class="row">
         <h2>My Projects</h2>
         <div class="card col-12 col-md-6 col-lg-3">
@@ -124,8 +118,17 @@
       </div>
     </div>
 
+    <!-- Contact -->
+    <div class="container-fluid my-5">
+      <div class="contact row text-center py-4">
+        <address><strong>Jamie Dunkley</strong></address>
+        <a href="https://github.com/jaydunkley"><i class="fa-brands fa-github"></i></a>
+        <a class="altcademy" href="https://www.altcademy.com">Part of Altcademy's Fullstack Program</a>
+      </div>
+    </div>
+
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
