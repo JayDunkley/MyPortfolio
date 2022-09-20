@@ -27,13 +27,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#about-me">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#github">GitHub</a>
               </li>
             </ul>
           </div>
@@ -57,70 +57,83 @@
     <!-- About me -->
     <div class="container-fluid my-5">
       <div class="about row align-items-center py-3">
+        <div id="about-me"></div>
         <h2>About Me</h2>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/coffe-blog.jpeg')"></div>
         </div>
         <div class="col-12 col-md-6 col-lg-8">
-          <p>Nulla hendrerit felis ut tristique efficitur. In eget risus luctus, blandit magna at, ullamcorper leo. Pellentesque nec nunc sed est viverra volutpat. Aliquam at turpis sed felis euismod placerat euismod nec massa. Maecenas congue dui eget turpis pellentesque ornare. Integer arcu dolor, volutpat eget leo non, vestibulum lacinia nisl. Morbi ut libero libero. Nam sit amet gravida leo. Suspendisse potenti. Sed lacinia metus non eros dictum, et scelerisque ligula semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut enim nisi, consequat ut imperdiet a, consectetur id turpis. Fusce at blandit libero. Sed volutpat nisi id bibendum consectetur. Curabitur aliquet mollis libero in suscipit.</p>
+          <p>I've been involved in designing websites for the several years but most of my experience was from working with CMS's such as Joomla and Wordpress.  I've previously built many websites with theme builders but got frustrated with the maintenance involved such as having to continuously update and test plugins.</p><br>
+          <p>I've wanted to learn how to code for a long time so decided to signup to Altcademy's Fullstack Developer Bootcamp and have learned so much.  I'm currently working through HTML, CSS, Flexbox, Bootstrap and getting to grips with Git.</p><br>
+          <p>I am looking forward to completing the course and becoming a full time developer.</p>
         </div>
       </div>
     </div>
 
     <!-- Project section -->
     <div class="container-fluid my-5">
-      <div class="row">
+      <div id="projects"></div>
         <h2>My Projects</h2>
-        <div class="card col-12 col-md-6 col-lg-3">
-          <a href="https://www.bbc.co.uk">
-            <img class="card-img-top" src="./images/apple.png">
-          </a>
+      <div class="row flex-nowrap overflow-scroll">
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://funny-raindrop-012240.netlify.app" style="background-image: url('./images/apple.png')"></a>
           <div class="card-body">
             <h5 class="card-title">Apple Clone</h5>
             <h6 class="card-subtitle mb-2 text-muted">Website Clone</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <p class="card-text">Simple clone made of the Apple website adding in the Nav Bar, Hero content some images and footer area containing columns and linkgs..</p>
+            <a href="https://funny-raindrop-012240.netlify.app" class="card-link">View</a>
           </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-3">
-          <a href="https://elaborate-parfait-6b2741.netlify.app">
-            <img class="card-img-top" src="./images/newsweek.jpg">
-          </a>
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://elaborate-parfait-6b2741.netlify.app" style="background-image: url('./images/newsweek.jpg')"></a>
           <div class="card-body">
             <h5 class="card-title">Newsweek Clone</h5>
-            <h6 class="card-subtitle mb-2 text-muted"></h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://elaborate-parfait-6b2741.netlify.app" class="card-link">Newsweek</a>
-            <a href="#" class="card-link">Another link</a>
+            <h6 class="card-subtitle mb-2 text-muted">Responsive Website Clone</h6>
+            <p class="card-text">Responsive website clone with multiple break-points. Also including a transparent background effect set with relative and absolute positioning.</p>
+            <a href="https://elaborate-parfait-6b2741.netlify.app" class="card-link">View</a>
           </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-3">
-          <img class="card-img-top" src="./images/airbnb.png">
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://meek-babka-81e824.netlify.app" style="background-image: url('./images/airbnb.png')"></a>
           <div class="card-body">
             <h5 class="card-title">Airbnb Clone</h5>
             <h6 class="card-subtitle mb-2 text-muted">Responsive Website Clone</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <p class="card-text">A detailed clone of the Airbnb website. Varied Nav and Hero sections changes at different break-points. Hover feature set on Nav menu.</p>
+            <a href="https://meek-babka-81e824.netlify.app" class="card-link">View</a>
           </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-3">
-          <img class="card-img-top" src="./images/airbnb-v5.png">
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://incandescent-beijinho-8c1611.netlify.app" style="background-image: url('./images/airbnb-v5.png')"></a>
           <div class="card-body">
             <h5 class="card-title">Airbnb Bootstrap v5</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h6 class="card-subtitle mb-2 text-muted">Airbnb Bootstrap v5 Clone</h6>
+            <p class="card-text">Airbnb site recreated utilising some of the new settings from Bootstrap v5. New overflow section added as well as further customisation to the Menu.</p>
+            <a href="https://incandescent-beijinho-8c1611.netlify.app" class="card-link">View</a>
+          </div>
+        </div>
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://incandescent-beijinho-8c1611.netlify.app" style="background-image: url(https://via.placeholder.com/350x150)"></a>
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <h6 class="card-subtitle mb-2 text-muted">New Project coming soon...</h6>
+            <p class="card-text"></p>
+          </div>
+        </div>
+        <div class="card col-11 col-md-4 col-lg-5">
+          <a class="aspectRatioBox mb-3 rounded" href="https://incandescent-beijinho-8c1611.netlify.app" style="background-image: url(https://via.placeholder.com/350x150)"></a>
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon</h5>
+            <h6 class="card-subtitle mb-2 text-muted">New Project coming soon...</h6>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Contact -->
+    <!-- Footer -->
     <div class="container-fluid my-5">
-      <div class="contact row text-center py-4">
+      <div class="footer row text-center py-4">
+        <div id="github"></div>
         <address><strong>Jamie Dunkley</strong></address>
         <a href="https://github.com/jaydunkley"><i class="fa-brands fa-github"></i></a>
         <a class="altcademy" href="https://www.altcademy.com">Part of Altcademy's Fullstack Program</a>
